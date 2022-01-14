@@ -5,5 +5,3 @@ class ActorsController < ApplicationController
     render json: actor
   end
 end
-
-
