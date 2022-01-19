@@ -7,9 +7,12 @@ POST http://localhost:3000/movies
 Content-Type: application/json
 
 {
-  "title": "Avatar",
-  "year": "2010",
-  "plot": "blue people hangin out"
+  "title": "Kill Bill",
+  "year": "2005",
+  "plot": "uma seeks revenge",
+  "director": "QT",
+  "english": true 
+  
 }
 
 ###movies show
@@ -20,9 +23,11 @@ PATCH http://localhost:3000/movies/8
 Content-Type: application/json
 
 {
-  "title": "Matrix",
+  "title": "The Matrix",
   "year": "1999",
-  "plot": "take the red pill"
+  "plot": "take the blue pill",
+  "director": "Wachaoski",
+  "english": true
 }
 
 ###movies delete

@@ -1,31 +1,35 @@
 ###Actor index
-GET http://localhost:3000/actor
+GET http://localhost:3000/actors
 
 
 ###Actor create
-POST http://localhost:3000/actor
+POST http://localhost:3000/actors
 Content-Type: application/json
 
 {
   "first_name": "Bob",
   "last_name": "Saget",
-  "known_for": "Full House"
+  "known_for": "Full House",
+  "gender": "male",
+  "age": 55
 }
 
 ###Actor show
-GET http://localhost:3000/actor/5
+GET http://localhost:3000/actors/5
 
 ###Actor patch
-PATCH http://localhost:3000/actor/8
+PATCH http://localhost:3000/actors/8
 Content-Type: application/json
 
 {
   "first_name": "Hank",
   "last_name": "Hill",
-  "known_for": "King of the Hill"
+  "known_for": "King of the Hill",
+  "gender": "male",
+  "age": 50
 }
 
 ###Actor delete
-DELETE http://localhost:3000/actor/9
+DELETE http://localhost:3000/actors/9
 Content-Type: application/json
 
