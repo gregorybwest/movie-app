@@ -7,7 +7,7 @@ POST http://localhost:3000/actors
 Content-Type: application/json
 
 {
-  "first_name": "Bob",
+  "first_name": "B",
   "last_name": "Saget",
   "known_for": "Full House",
   "gender": "male",

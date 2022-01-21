@@ -9,7 +9,7 @@ Content-Type: application/json
 {
   "title": "Kill Bill",
   "year": "2005",
-  "plot": "uma seeks revenge",
+  "plot": "uma",
   "director": "QT",
   "english": true 
   
@@ -25,7 +25,7 @@ Content-Type: application/json
 {
   "title": "The Matrix",
   "year": "1999",
-  "plot": "take the blue pill",
+  "plot": "take",
   "director": "Wachaoski",
   "english": true
 }
