@@ -22,11 +22,12 @@ PATCH http://localhost:3000/actors/8
 Content-Type: application/json
 
 {
-  "first_name": "Hank",
-  "last_name": "Hill",
-  "known_for": "King of the Hill",
+  "first_name": "Homer",
+  "last_name": "Simpson",
+  "known_for": "The Simsons",
   "gender": "male",
-  "age": 50
+  "age": 45,
+  "movie_id": 6
 }
 
 ###Actor delete
