@@ -2,6 +2,8 @@
 GET http://localhost:3000/actors
 
 
+
+
 ###Actor create
 POST http://localhost:3000/actors
 Content-Type: application/json
