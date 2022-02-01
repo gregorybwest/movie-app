@@ -1,6 +1,10 @@
+
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDM3NTU3MDd9.Miufk0mnfSY8MVZleTxLs9RJnaVlymRNV7EFp26jSS4
+
 ### Sessions create (login)
 POST http://localhost:3000/sessions
 Content-Type: application/json
+Authorization: Bearer {{ jwt }}
 
 {
   "email": "gregwest@gmail.com",

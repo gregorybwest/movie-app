@@ -1,0 +1,12 @@
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDM3NTYyODZ9.Qt4dcjcv8Q9PTMwRRGwNrnIXKal-qR3GWiVhPR2CAaA
+
+
+### MovieGenres create
+POST http://localhost:3000/movie_genres
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDM3NTYyODZ9.Qt4dcjcv8Q9PTMwRRGwNrnIXKal-qR3GWiVhPR2CAaA
+
+{
+  "movie_id": 8, 
+  "genre_id": 3
+}
